@@ -15,7 +15,7 @@ class rot13encrypter
         for(i=0;i<l;i++)
         {
             ch=s.charAt(i);
-            if(ch!=' ') //||ch=='1' ||ch!='@' ||ch!='#' ||ch!='$' ||ch!='%' ||ch!='&' ||ch!='*'||ch!='.')
+            if(ch!=' ') 
             {
                 if(ch>='A'&&ch<='M'||ch>='a'&&ch<='m')
                 {
